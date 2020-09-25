@@ -1,0 +1,147 @@
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 20px; 
+  /* Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif; 
+  background-color: #FAFAFA;
+  background-image: url("../images/bg.jpg");
+  /*background-color: red;
+  background-repeat: repeat;
+  background: rgb(68,73,65);
+  background: linear-gradient(180deg, rgba(68,73,65,0.9568870630157128) 0%, rgba(174,174,174,0.8726174000943645) 30%);*/
+}
+
+main {
+  width: 1000px ;
+  margin: 0 auto;
+  background-color: #FAFAFA;
+  padding: 0 20px 20px 20px;
+  /*border: 5px solid black;*/
+  display: inline-block;
+  position:absolute;
+  right:140px;
+}
+
+aside {
+  display: inline-block;
+  position: fixed;
+  
+top: 30px;
+  border-style: dashed solid;
+  width:130px;
+  border-width: 0.27em;
+  background:#f6f5ec;
+
+}
+
+
+
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #E6E6E6;
+
+  text-shadow: 3px 3px 1px #BDBDBD;
+
+  text-align: center;
+}
+
+
+p,li {
+  font-size: 16px;
+  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */    
+  line-height: 2;
+  letter-spacing: 1px;
+
+}
+
+
+img {
+  display: block;
+  margin: 500 500;
+}
+
+li{
+    color:#000000;
+    width:200px;
+
+}
+#id1{
+    color:#2E2E2E;
+
+
+}
+
+#id3{
+    text-decoration:underline;
+    color:#0000FF;
+}
+
+
+h2{
+    border-width:3px;
+    color:#2E2E2E;
+    border-style: inset;
+    border-color:black;
+
+    
+}
+/*img[src]{
+
+    border: 1px solid red;
+
+}
+*/
+
+a {
+  color:black;
+  text-decoration:none;
+
+}
+
+a:hover{
+
+    color:red;
+
+}
+.dh{
+  margin: 20px;
+  padding 20px;
+  width: 200px;
+  height: 15px;
+  font-size: 20px;
+  display: inline-block;
+  
+
+}
+#dh{
+  background-color: #A4A4A4;
+  border-left: 10px solid #5858FA;
+  
+}
+
+.zs{
+  /*display:inline-flex;*/
+  border-style: inset;
+  width:450px;
+  height:400px;
+  float:left;
+  vertical-align:middle;
+}
+
+
+
+
+.csz{
+  color:black;
+  font-size:20px; 
+
+
+}
+#id6{
+  display:block;
+  height:420px
+
+
+}
